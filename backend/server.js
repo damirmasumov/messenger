@@ -90,7 +90,7 @@ function addUser_chat(user_chat) {
             res.status(500).send('Something went wrong');
         }
         else {
-            console.log(db_res)
+            
             res.status(200).send(JSON.stringify(db_res));
         }
     })
